@@ -1,0 +1,68 @@
+/* Header Styling */
+.header {
+    background-color: red;
+    padding: 10px;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+  
+  /* Search Input Styling */
+  .search-container {
+    flex-grow: 1;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 0 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .search-container {
+      order: 1;
+      width: 100%;
+    }
+    .search-input {
+      width: 100%;
+    }
+  }
+  
+  /* Navigation Icons */
+  .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #ffd700; /* Hover color (e.g., gold) */
+  }
+  
+  /* Avatar Styling */
+  .avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

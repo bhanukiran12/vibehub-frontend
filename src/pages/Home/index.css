@@ -1,0 +1,12 @@
+.post-item{
+    margin: 20px;
+}
+.post-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+}

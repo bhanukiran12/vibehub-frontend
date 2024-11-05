@@ -1,6 +1,53 @@
 .App{
- 
   height: 100%;
   min-height: 100vh;
 
+}
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+/* Left Sidebar */
+.left-sidebar,
+.right-sidebar {
+  flex: 1;
+}
+
+/* Center Feed */
+.center-feed {
+  flex: 2;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+.new-post-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.new-post-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.post-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post-btn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
 }

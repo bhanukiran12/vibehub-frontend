@@ -1,0 +1,16 @@
+.post {
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 2px black;
+    padding: 10px;
+}
+.post-image{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+}
